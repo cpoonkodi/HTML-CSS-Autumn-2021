@@ -1,0 +1,200 @@
+/* Universal Selector */
+*{
+margin:0;
+
+}
+
+body {
+  font-family:'Poppins',sans-serif;
+}
+
+/* Header CSS */
+header,footer{
+  background: rgb(118, 105, 192); 
+  color:white; 
+  text-align: center;
+  text-transform: uppercase; padding: 25px;
+}
+
+
+/* Specificity >  inline is more specific,then id, then class and then tag */
+
+/* CSS Selectors: tagname, id, class,attribute, combinators */
+
+
+
+#title{
+  color:rgb(245, 239, 239);
+}
+#menu{
+  background-color: rgb(147, 150, 147);
+}
+#menu li{
+  list-style: none;
+  margin:15px;
+  display:inline-block
+}
+
+section{
+  margin:50px;
+  padding:30px;
+  border-radius: 10px;
+}
+#section-1{
+  background-color: rgb(177, 246, 177);
+}
+
+#section-2{
+  background-color: rgb(148, 243, 248);
+}
+
+
+#section-3{
+  background-color: rgb(234, 201, 248);
+}
+#section-4{
+  background-color: rgb(241, 205, 160);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CSS for Projects */
+
+.box{
+  width:200px;
+  height:200px;
+  /* border: 2px solid rgb(246, 148, 121); */
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  font-size: 40px;
+}
+#box-1{
+  background-color: rgb(139, 226, 139);
+}
+#box-2{
+  background-color: yellow;
+}
+#box-3{
+  background-color: rgb(245, 143, 143);
+}
+#boxes{
+  text-align: center;
+}
+
+#videos{
+  text-align: center;
+}
+hr{
+  /* height:3px; */
+  padding:5px;
+  background-color: rgb(145, 135, 190);;
+}
+
+
+/* icons style */
+i{
+  font-size: 32px;
+  margin:30px;
+}
+
+.fa-github-square{
+  color:#333;
+}
+.fa-linkedin{
+  color:#0077b5;
+}
+
+.fa-twitter-square{
+  color:#1da1f2;
+}
+
+/* Table CSS */
+
+table,td,th
+{
+  border:1px solid gray;
+  border-collapse: collapse;
+}
+
+table{
+  width:75%;
+  margin: 30px auto;
+}
+td {
+  text-align: center;
+}
+
+/* Form CSS */
+.form-group{
+  border:2px solid red;
+  /* top,right, bottom,left */
+  margin:0 0 8px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[tyep="number"],
+input[type="datetime-local"],
+textarea{
+  display:block;
+  margin-bottom: 3px;
+  width:35%;
+  padding:8px;
+  border:2px solid rgb(228, 208, 235);
+  outline: none;
+  border-radius: 3px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[tyep="number"]:hover,
+input[type="datetime-local"]:hover,
+textarea:hover{
+  border:2px solid rgb(169, 111, 210);
+}
+
+/* Styling the Submit button */
+input[type="submit"]{
+  background-color: rgb(6, 212, 6);
+  /* topbottom, leftRight */
+  padding:10px 25px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  /* By default font-size is 16px */
+  font-size: 18px;
+}
+
+/* use the above code for Submit button OR  below */
+
+#submit-btn{
+  background-color: rgb(6, 212, 6);
+  /* topbottom, leftRight */
+  padding:10px 25px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  /* By default font-size is 16px */
+  font-size: 18px;
+}
+
+
+.category{
+  width:75%;
+  margin:auto;
+  border:5px solid green;
+}
+
+.form-section{
+  margin-bottom: 30px;
+}
+
+article{
+  margin-bottom: 25px;;
+}
